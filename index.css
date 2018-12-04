@@ -221,11 +221,6 @@ body
     height: 100px;
 }
 
-.vertical-advertise__image:hover
-{
-    cursor: pointer;
-}
-
 .vertical-advertise__name
 {
     font-size: 18px;
@@ -248,11 +243,6 @@ body
 {
     width: calc(100% - 100px);
     height: 80%;
-}
-
-.horizontal-adv__banner:hover
-{
-    cursor: pointer;
 }
 
 .widgets
@@ -319,12 +309,6 @@ body
     padding: 5px 0;
 }
 
-.widget__sub-name:hover
-{
-    color: red;
-    cursor: pointer;
-}
-
 .widget__text
 {
     margin-left: 5px;
@@ -333,6 +317,7 @@ body
     transition: color .2s;
 }
 
+.widget__sub-name:hover,
 .widget__text:hover
 {
     color: red;
@@ -429,11 +414,6 @@ body
     justify-content: space-between;
 }
 
-.jokes__next
-{
-    cursor: pointer;
-}
-
 .gray-text
 {
     color: gray;
@@ -457,6 +437,10 @@ body
     align-items: center;
 }
 
+.horizontal-adv__banner:hover,
+.vertical-advertise__image:hover,
+.search-form__button:hover,
+.jokes__next,
 .logo:hover
 {
     cursor: pointer;
